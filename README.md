@@ -1,8 +1,8 @@
 # Sapling 
-- current release: `v0.1` [released for alpha testing]
+- current release: `v0.1` 
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 - In doing so, the creation of Sapling hopes :-
-	1. to reduce the time needed by students' to learn about a (usually new) topic 
+	1. to reduce the time needed by students' to learn about any text-based (usually new) topic 
 	2. to provides answers on the fly, such as during lectures and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
 	3. to help reduce anxiety (due to information overload) while preparing for exams or essay writing
 	4. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
@@ -18,8 +18,8 @@
 
 
 ## Getting Started:
-1. **Setup Sapling for the first time**	
-	- Download 'Sapling' for 
+1. **Setting up**	
+	- Download 'Sapling' For:
 		1. [Windows (175MB)](https://drive.google.com/file/d/14239sQrEaYe1HultlYYcJNlNxUEZ82VC/view?usp=sharing) 
 		2. [Mac (400MB)]()
 
@@ -36,6 +36,7 @@
 
 3. **Provide path to the folder with your PDFs**
 	- This is the knowledge base which Sapling draw her answers from
+	- Example:
 	- *MacOS*: **Copy the path of the directory that you want to load**
 		1. ***Option 1:***
 			- Drag and drop into the console window
