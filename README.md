@@ -11,7 +11,7 @@
 
 ## Features
 1. **Finds the 5 most relevant sentences across multiple PDF articles within minutes** to answer your question about any topic. Confidence scores of each result are displayed!
-2. Is also able to locate the files and paragraphs the answers are in. You can open the file from the results if you want to.
+2. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
 3. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
 4. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version.
 5. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020)
