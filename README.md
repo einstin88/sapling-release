@@ -1,6 +1,6 @@
 # Sapling 
 - current release: `v0.1` [released for alpha testing]
-- Aims to help students pin-point answers*(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
+- Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 - In doing so, the creation of Sapling hopes :-
 	1. to reduce the time needed by students' to learn about a (usually new) topic 
 	2. to provides answers on the fly, such as during lectures and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
@@ -10,11 +10,11 @@
 
 
 ## Features
-- Finds the 5 most relevant sentences across multiple PDF articles within minutes to answer your question about a topic. Confidence scores of each result are displayed!
-- Is also able to locate the files and paragraphs the answers are in. You can open the file from the results if you want to.
-- Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
-- Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version.
-- Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020)
+1. **Finds the 5 most relevant sentences across multiple PDF articles within minutes** to answer your question about any topic. Confidence scores of each result are displayed!
+2. Is also able to locate the files and paragraphs the answers are in. You can open the file from the results if you want to.
+3. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
+4. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version.
+5. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020)
 
 
 ## Getting Started:
@@ -23,22 +23,33 @@
 		1. [Windows (175MB)](https://drive.google.com/file/d/14239sQrEaYe1HultlYYcJNlNxUEZ82VC/view?usp=sharing) 
 		2. [Mac (400MB)]()
 
-	- latest Java runtime installed 
-		- Download for [any platform (recommended)](https://java.com/en/download/) OR [specific platform (advanced)](https://java.com/en/download/manual.jsp)
+	- Download and install latest Java runtime 
+		- Download for [any platform (recommended)](https://java.com/en/download/) 
+		- OR for [specific platform (advanced)](https://java.com/en/download/manual.jsp)
 
-2. (*MacOS*) **Copy the path of the directory that you want to load**
-	- ***Option 1:***
-		- [ ] to add descriptions and screenshots
+2. **Extract and run**
+	- *Windows*
+		1. Run `autorun.bat` after extracting the zip file
+		2. You could also create shortcut for the `.bat` to desktop
+	- *Mac*
+		1. Run `autorun.sh` 
 
-	- ***Option 2:***
+3. **Provide path to the folder with your PDFs**
+	- This is the knowledge base which Sapling draw her answers from
+	- *MacOS*: **Copy the path of the directory that you want to load**
+		1. ***Option 1:***
+			- Drag and drop into the console window
+		2. ***Option 2:***
+			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy `your folder` as pathname' option
+			- [ ] to add screenshots		
+	- Windows users can also drag and drop into the console
 
-3. **Run**
-4. **Provide folder with your files**
-5. **Question away!**
+4. **Question away!**
+	- Ask anything you like or something you vaguely remember from reading the texts
 
 
 ## FAQ
-1. What it means by texts are not parsable?
+1. What it means by `texts are not parsable`?
 2. Why am I getting `failed to see startup message` error?
 
 ## Technical description
@@ -57,6 +68,7 @@
 ### Ideas for the future:
 - *Features*
 	- [ ] ability to change the number of results returned
+	- [ ] improve search speed
 	- [ ] tidier preprocessing of PDF headers, footers and citations
 	- [ ] web-based UI
 	- [ ] OCR capability for unparsable PDFs
