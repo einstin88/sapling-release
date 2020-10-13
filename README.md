@@ -56,16 +56,16 @@
 - WIP
 
 ### Version Releases
-- v0.1 [end-Sep-2020] - alpha testing + initial release
+- v0.1 [13-Oct-2020]: debut for alpha testing
 	- *features available*
-		1. Extract texts from PDFs
+		1. Extract clean texts from PDFs
 		2. Return 5 top matching sentences to your query
 
-### *Notes*
+#### *Notes*
 1. Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks.
 2. Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs.
 
-### Ideas for the future:
+#### Ideas for the future:
 - *Features*
 	- [ ] ability to change the number of results returned
 	- [ ] improve search speed
