@@ -1,3 +1,5 @@
+![Logo](https://github.com/einstin88/sapling-release/blob/master/img/original.jpeg)
+
 # Sapling 
 - current release: `v0.1` 
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
@@ -22,6 +24,7 @@
 	- Download 'Sapling' For:
 		1. [Windows (175MB)](https://drive.google.com/file/d/14239sQrEaYe1HultlYYcJNlNxUEZ82VC/view?usp=sharing) 
 		2. [Mac (180MB)](https://drive.google.com/file/d/11P4QVpkkW1Tpv2vqFGqwVlOqS5gRCrF0/view?usp=sharing)
+		
 		*does not run properly on MacOS 10.14 or older*
 
 	- Download and install latest Java runtime 
@@ -49,7 +52,7 @@
 			- Drag and drop into the console window
 		2. ***Option 2:***
 			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy xxx as pathname' option
-			
+
 			![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
 
 	- You can easily drag and drop into the console on Windows
