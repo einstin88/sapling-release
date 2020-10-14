@@ -38,11 +38,11 @@
 3. **Provide path to the folder with your PDFs**
 	- This is the knowledge base which Sapling draw her answers from.
 
-Example: this is the folder with the PDFs
-![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
-	
-The full path to the folder provided like this
-![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
+	- Example: 
+		1. this is the folder with the PDFs
+		2. ![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
+		3. The full path to the folder provided like this
+		4. ![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
 
 	- *MacOS*: **2 easy ways to copy the folder path**
 		1. ***Option 1:***
