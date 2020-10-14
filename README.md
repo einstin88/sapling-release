@@ -49,8 +49,7 @@
 			- Drag and drop into the console window
 		2. ***Option 2:***
 			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy xxx as pathname' option
-
-![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
+			![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
 
 	- You can easily drag and drop into the console on Windows
 
