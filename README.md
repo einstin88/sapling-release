@@ -36,17 +36,19 @@
 		1. Follow instructions in the zipped file to run `autorun.command` or create a shortcut to your desktop
 
 3. **Provide path to the folder with your PDFs**
-	- This is the knowledge base which Sapling draw her answers from
-	Example:
+	- This is the knowledge base which Sapling draw her answers from.
+	- Example: this is the folder with the PDFs
 	![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
-
+	- The full path to the folder provided like this
 	![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
 	- *MacOS*: **How to copy the path of the directory that you want to load**
 		1. ***Option 1:***
 			- Drag and drop into the console window
 		2. ***Option 2:***
 			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy `your folder` as pathname' option
-			![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)	
+
+	![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
+	
 	- You can easily drag and drop into the console on Windows
 
 4. **Question away!**
