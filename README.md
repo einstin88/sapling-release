@@ -21,7 +21,8 @@
 1. **Setting up**	
 	- Download 'Sapling' For:
 		1. [Windows (175MB)](https://drive.google.com/file/d/14239sQrEaYe1HultlYYcJNlNxUEZ82VC/view?usp=sharing) 
-		2. [Mac (400MB)]()
+		2. [Mac (180MB)](https://drive.google.com/file/d/11P4QVpkkW1Tpv2vqFGqwVlOqS5gRCrF0/view?usp=sharing)
+		*does not run properly on MacOS 10.14 or older*
 
 	- Download and install latest Java runtime 
 		- Download for [any platform (recommended)](https://java.com/en/download/) 
@@ -30,20 +31,28 @@
 2. **Extract and run**
 	- *Windows*
 		1. Run `autorun.bat` after extracting the zip file
-		2. You could also create shortcut for the `.bat` to desktop
+		2. Or create shortcut for the `.bat` to desktop
 	- *Mac*
-		1. Run `autorun.sh` 
+		1. Follow instructions in the zipped file to run `autorun.command` or create a shortcut to your desktop
 
 3. **Provide path to the folder with your PDFs**
-	- This is the knowledge base which Sapling draw her answers from
-	- Example:
-	- *MacOS*: **Copy the path of the directory that you want to load**
+	- This is the knowledge base which Sapling draw her answers from.
+
+	- Example: 
+		1. this is the folder with the PDFs
+		 ![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
+		2. The full path to the folder provided like this
+		 ![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
+
+	- *MacOS*: **2 easy ways to copy the folder path**
 		1. ***Option 1:***
 			- Drag and drop into the console window
 		2. ***Option 2:***
-			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy `your folder` as pathname' option
-			- [ ] to add screenshots		
-	- Windows users can also drag and drop into the console
+			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy xxx as pathname' option
+			
+			![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
+
+	- You can easily drag and drop into the console on Windows
 
 4. **Question away!**
 	- Ask anything you like or something you vaguely remember from reading the texts
@@ -51,7 +60,9 @@
 
 ## FAQ
 1. What it means by `texts are not parsable`?
+	- It means that the PDF is a scanned image, or the internal character mapping is corrupt
 2. Why am I getting `failed to see startup message` error?
+	- MacOS 10.14 or older has different Java setup and causes strange behaviour.
 
 ## Technical description
 - WIP
@@ -60,7 +71,7 @@
 - v0.1 [13-Oct-2020]: debut for alpha testing
 	- *features available*
 		1. Extract clean texts from PDFs
-		2. Return 5 top matching sentences to your query
+		2. Return 5 top matching answers to your query
 
 #### *Notes*
 1. Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks.
