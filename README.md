@@ -10,7 +10,7 @@ The creation of Sapling hopes :-
 2. to provides answers on the fly, such as during lectures and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
 3. to help reduce anxiety (due to information overload) while preparing for exams or essay writing
 4. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
-(Inspired by advancements in AI on Natural Language Processing (NLP) such as IBM's Watson, FB's DrQA, and Google Research's BERT & ALBERT.)
+(Inspired by advancements in AI on Natural Language Processing (NLP) such as IBM's Watson, FB's DrQA, and Google Research's BERT & ALBERT)
 
 
 ## Features
@@ -29,14 +29,12 @@ The creation of Sapling hopes :-
 		2. [Mac (180MB)](https://drive.google.com/file/d/1Q40Af69DidujOQINDltmX5r7JliJawO6/view?usp=sharing) *(does not run properly on MacOS 10.14 or older)*
 
 	- Download and install latest Java runtime (version 8 and above)
-		- Download for [any platform (recommended)](https://java.com/en/download/) 
-		- OR for [specific platform (advanced)](https://java.com/en/download/manual.jsp)
+		- [For Windows](https://java.com/en/download/) 
+		- [For MacOS](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) - choose 'macOS installer'
 
 2. **Extract and run**
-	- *Windows*
-		1. Run `autorun.bat` after extracting the zip file
-	- *Mac*
-		1. Follow instructions in the zipped file to run `autorun.command`.
+	- *Windows* : Run `autorun.bat` after extracting the zip file
+	- *Mac*: Follow instructions in the zipped file to run `autorun.command`.
 
 3. **Provide path to the folder with your PDFs**
 	- This is the knowledge base which Sapling draw her answers from.
@@ -80,7 +78,13 @@ Coming Soon
 
 
 ### Technical description
-Coming Soon
+1. Preprocessing
+	1. Retrieves compatible files from given directory
+	2. Parse and clean texts of headers/footers/annotations/references
+2. Query processing
+	1. Naive search for relevant docs with TF-IDF
+	2. Fit query and passages using model pre-trained on Wiki texts and fine-tuned on Squad tasks, with span classification head
+	3. Retrieve cross entropy losses to score passage fit and embedding vectors to compute argmax'es for answer spans
 
 
 ### Version Releases
