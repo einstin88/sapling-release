@@ -43,14 +43,15 @@
 		1. this is the folder with the PDFs
 		 ![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
 		2. The full path to the folder provided like this
-		 ![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
+
+	![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
 
 	- *MacOS*: **2 easy ways to copy the folder path**
 		1. ***Option 1:***
 			- Drag and drop into the console window
 		2. ***Option 2:***
 			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy xxx as pathname' option
-
+	
 	![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
 
 	- You can easily drag and drop into the console on Windows
@@ -58,15 +59,17 @@
 4. **Question away!**
 	- Ask anything you like or something you vaguely remember from reading the texts
 	- Example query:
-	![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
+
+![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
 	- Result:
-	![Results](https://github.com/einstin88/sapling-release/blob/master/img/result_disp.png)
+	
+![Results](https://github.com/einstin88/sapling-release/blob/master/img/result_disp.png)
 
 
 ## FAQ
 1. What it means by `texts are not parsable`?
 	- It means that the PDF is a scanned image, or the internal character mapping is corrupt. Usually occur with very old PDFs.
-	
+
 2. Why am I getting `failed to see startup message` error?
 	- It takes a couple of seconds to load the PDF parser. Sometimes the first timer is up before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
 
