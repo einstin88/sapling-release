@@ -3,12 +3,14 @@
 # Sapling 
 - current release: `v0.1` 
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
-- In doing so, the creation of Sapling hopes :-
-	1. to reduce the time needed by students to learn about any text-based (usually new) topic 
-	2. to provides answers on the fly, such as during lectures and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
-	3. to help reduce anxiety (due to information overload) while preparing for exams or essay writing
-	4. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
-- Inspired by advancements in AI on Natural Language Processing (NLP) such as IBM's Watson, FB's DrQA, and Google Research's BERT & ALBERT.
+
+## Why Sapling?
+The creation of Sapling hopes :-
+1. to reduce the time needed by students to learn about any text-based (usually new) topic 
+2. to provides answers on the fly, such as during lectures and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
+3. to help reduce anxiety (due to information overload) while preparing for exams or essay writing
+4. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
+(Inspired by advancements in AI on Natural Language Processing (NLP) such as IBM's Watson, FB's DrQA, and Google Research's BERT & ALBERT.)
 
 
 ## Features
