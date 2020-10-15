@@ -1,10 +1,10 @@
-![Logo](https://github.com/einstin88/sapling-release/blob/master/img/original.jpeg)
+![Sapling Logo](https://github.com/einstin88/sapling-release/blob/master/img/original.jpeg)
 
 # Sapling 
 - current release: `v0.1` 
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 - In doing so, the creation of Sapling hopes :-
-	1. to reduce the time needed by students' to learn about any text-based (usually new) topic 
+	1. to reduce the time needed by students to learn about any text-based (usually new) topic 
 	2. to provides answers on the fly, such as during lectures and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
 	3. to help reduce anxiety (due to information overload) while preparing for exams or essay writing
 	4. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
@@ -17,26 +17,24 @@
 3. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
 4. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version.
 5. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020)
+6. Works on Windows 10 and MacOS 10.15 or later.
 
 
 ## Getting Started:
 1. **Setting up**	
 	- Download 'Sapling' For:
-		1. [Windows (175MB)](https://drive.google.com/file/d/14239sQrEaYe1HultlYYcJNlNxUEZ82VC/view?usp=sharing) 
-		2. [Mac (180MB)](https://drive.google.com/file/d/11P4QVpkkW1Tpv2vqFGqwVlOqS5gRCrF0/view?usp=sharing)
-		
-		*does not run properly on MacOS 10.14 or older*
+		1. [Windows (160MB)](https://drive.google.com/file/d/1CTc8b_bDnjPVUP8hHVQfXZmzt3ZFR5jJ/view?usp=sharing) 
+		2. [Mac (180MB)](https://drive.google.com/file/d/1Q40Af69DidujOQINDltmX5r7JliJawO6/view?usp=sharing) *(does not run properly on MacOS 10.14 or older)*
 
-	- Download and install latest Java runtime 
+	- Download and install latest Java runtime (version 8 and above)
 		- Download for [any platform (recommended)](https://java.com/en/download/) 
 		- OR for [specific platform (advanced)](https://java.com/en/download/manual.jsp)
 
 2. **Extract and run**
 	- *Windows*
 		1. Run `autorun.bat` after extracting the zip file
-		2. Or create shortcut for the `.bat` to desktop
 	- *Mac*
-		1. Follow instructions in the zipped file to run `autorun.command` or create a shortcut to your desktop
+		1. Follow instructions in the zipped file to run `autorun.command`.
 
 3. **Provide path to the folder with your PDFs**
 	- This is the knowledge base which Sapling draw her answers from.
@@ -53,22 +51,33 @@
 		2. ***Option 2:***
 			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy xxx as pathname' option
 
-			![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
+	![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
 
 	- You can easily drag and drop into the console on Windows
 
 4. **Question away!**
 	- Ask anything you like or something you vaguely remember from reading the texts
+	- Example query:
+	![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
+	- Result:
+	![Results](https://github.com/einstin88/sapling-release/blob/master/img/result_disp.png)
 
 
 ## FAQ
 1. What it means by `texts are not parsable`?
-	- It means that the PDF is a scanned image, or the internal character mapping is corrupt
+	- It means that the PDF is a scanned image, or the internal character mapping is corrupt. Usually occur with very old PDFs.
+	
 2. Why am I getting `failed to see startup message` error?
-	- MacOS 10.14 or older has different Java setup and causes strange behaviour.
+	- It takes a couple of seconds to load the PDF parser. Sometimes the first timer is up before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
 
-## Technical description
-- WIP
+
+### Feedback
+Coming Soon
+
+
+### Technical description
+Coming Soon
+
 
 ### Version Releases
 - v0.1 [13-Oct-2020]: debut for alpha testing
@@ -89,6 +98,7 @@
 	- [ ] OCR capability for unparsable PDFs
 	- [ ] extract text from docx files
 	- [ ] save outputs
+	- [ ] combine multiple directories as a common knowledge base
 
 - *Bug fixes*
 	- [ ] None
