@@ -58,10 +58,9 @@
 
 4. **Question away!**
 	- Ask anything you like or something you vaguely remember from reading the texts
-	- Example query:
+	- Example query & results:
 
 ![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
-	- Result:
 	
 ![Results](https://github.com/einstin88/sapling-release/blob/master/img/result_disp.png)
 
