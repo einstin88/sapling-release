@@ -14,21 +14,21 @@ The creation of Sapling hopes :-
 
 
 ## Features
-1. **Finds the 5 most relevant sentences across multiple PDF articles within minutes** to answer your question about any topic. Confidence scores of each result are displayed!
+1. Sapling **reads your texts to find the 5 most relevant sentences across multiple PDF articles within minutes** based on your question about its topic. Confidence scores of each result are displayed!
 2. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
 3. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
 4. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version.
 5. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020)
-6. Works on Windows 10 and MacOS 10.15 or later.
+6. Works on Windows 10 and MacOS.
 
 
 ## Getting Started:
 1. **Setting up**	
 	- Download 'Sapling' For:
 		1. [Windows (160MB)](https://drive.google.com/file/d/1CTc8b_bDnjPVUP8hHVQfXZmzt3ZFR5jJ/view?usp=sharing) 
-		2. [Mac (180MB)](https://drive.google.com/file/d/1Q40Af69DidujOQINDltmX5r7JliJawO6/view?usp=sharing) *(does not run properly on MacOS 10.14 or older)*
+		2. [Mac (180MB)](https://drive.google.com/file/d/1lsVJfT7_krV5sIjFkDtgET4xs8OUrO56/view?usp=sharing)
 
-	- Download and install latest Java runtime (version 8 and above)
+	- Download and install latest Java runtime
 		- [For Windows](https://java.com/en/download/) 
 		- [For MacOS](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) - choose 'macOS installer'
 
@@ -58,6 +58,7 @@ The creation of Sapling hopes :-
 
 4. **Question away!**
 	- Ask anything you like or something you vaguely remember from reading the texts
+	- And repeat!
 	- Example query & results:
 
 ![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
@@ -72,6 +73,8 @@ The creation of Sapling hopes :-
 2. Why am I getting `failed to see startup message` error?
 	- It takes a couple of seconds to load the PDF parser. Sometimes the first timer is up before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
 
+3. Why am I getting segmentation fault : 11?
+	- If you're using MacOS, it is due to the way Python handles memory. You may have feed it with a large file, increasing RAM and cache usage by the program. I will try to fix this in the next version.
 
 ### Feedback
 Coming Soon
@@ -100,7 +103,7 @@ Coming Soon
 #### Ideas for the future:
 - *Features*
 	- [ ] ability to change the number of results returned
-	- [ ] improve search speed
+	- [ ] improve search speed with multi-thread processing
 	- [ ] tidier preprocessing of PDF headers, footers and citations
 	- [ ] web-based UI
 	- [ ] OCR capability for unparsable PDFs
@@ -109,4 +112,4 @@ Coming Soon
 	- [ ] combine multiple directories as a common knowledge base
 
 - *Bug fixes*
-	- [ ] None
+	- [ ] Segmentation fault 11 - fix memory handling with joblib

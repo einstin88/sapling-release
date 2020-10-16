@@ -35,6 +35,8 @@ def main():
             print(f'\n{CLR_SYS}Aha! Sapling\'s stolen {len(directory_data)} compatible file' +
                     ('s ' if len(directory_data) > 1 else ' ')
                     + f'from the folder. Just kidding, its still there! I swear!{C_RESET}\n')
+                #if tot > 10:
+                 #   print(f'{CLR_UI}OH Sweet Jesus, that\'s a lot of readings you have to do.\nYou know I\'ve been through a lot too. On a positive note though, knowledge is power!{C_RESET}\n')
 
             # TODO - add implementation for txt and docx
             # Pre-process files from directory
@@ -70,6 +72,7 @@ def main():
         result = query_data.process_query(pdf_data, directory_data)
 
         # TODO - For future implementation - saving data to user's system
+
         if result:
         # Handle repeat query
             options_1 = {
@@ -83,7 +86,18 @@ def main():
 
             if choice == 1:
                 utils.open_file(result)
-                continue
+                
+                options_1_1 = {
+                '1': '[1] Would you like to ask something else?',
+                '2': '[2] or quit program',
+                'logic': utils.Default_logic
+                }
+                choice = utils.process_options(options_1_1)
+
+                if choice:
+                    continue
+                else:
+                    utils.terminate()
 
             elif choice == 2:
                 continue
@@ -103,3 +117,4 @@ def main():
                 continue
             else:
                 utils.terminate()
+
