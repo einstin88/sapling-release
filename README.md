@@ -19,14 +19,15 @@ The creation of Sapling hopes :-
 3. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
 4. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version.
 5. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020)
-6. Works on Windows 10 and MacOS.
+6. Works on Windows 10 and MacOS 13 or newer.
 
 
 ## Getting Started:
 1. **Setting up**	
 	- Download 'Sapling' For:
-		1. [Windows (160MB)](https://drive.google.com/file/d/1CTc8b_bDnjPVUP8hHVQfXZmzt3ZFR5jJ/view?usp=sharing) 
-		2. [Mac (180MB)](https://drive.google.com/file/d/1lsVJfT7_krV5sIjFkDtgET4xs8OUrO56/view?usp=sharing)
+		1. [Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing) 
+		2. [MacOS 10.15 & above (170MB)](https://drive.google.com/file/d/1lsVJfT7_krV5sIjFkDtgET4xs8OUrO56/view?usp=sharing)
+		3. [MacOS 10.13.6 - 14 (170MB)](https://drive.google.com/file/d/1IpIstAMWfKvCxoyEn4PAlGdZ4ST1Quq_/view?usp=sharing)
 
 	- Download and install latest Java runtime
 		- [For Windows](https://java.com/en/download/) 
@@ -34,7 +35,9 @@ The creation of Sapling hopes :-
 
 2. **Extract and run**
 	- *Windows* : Run `autorun.bat` after extracting the zip file
-	- *Mac*: Follow instructions in the zipped file to run `autorun.command`.
+	- *Mac*: 
+		1. Follow instructions in the zipped file to run `autorun.command`.
+		2. When you get a prompt about security, goto 'Setting' > 'Security & Privacy' > select allow or enable
 
 3. **Provide path to the folder with your PDFs**
 	- This is the knowledge base which Sapling draw her answers from.
@@ -74,7 +77,7 @@ The creation of Sapling hopes :-
 	- It takes a couple of seconds to load the PDF parser. Sometimes the first timer is up before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
 
 3. Why am I getting segmentation fault : 11?
-	- If you're using MacOS, it is due to the way Python handles memory. You may have feed it with a large file, increasing RAM and cache usage by the program. I will try to fix this in the next version.
+	- If you're using MacOS, it is due to the way Python and Mac handles memory. You may have feed it with a large file, increasing RAM and cache usage by the program. I will try to fix this in the next version.
 
 ### Feedback
 Coming Soon
