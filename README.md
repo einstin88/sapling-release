@@ -3,6 +3,9 @@
 # Sapling 🌱
 - current release: `v0.1` 
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
+- *How it works in short*: It searches for answers in the documents in your folder - imagine a custom 'Google search' for specific ideas or concepts in your readings!
+- You may also use it to do a **negative query**, that is searching to know that the documents don't have the information you are looking for. By giving it a bunch of documents and if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents
+
 
 ## Why Sapling?
 The creation of Sapling hopes :-
@@ -14,11 +17,11 @@ The creation of Sapling hopes :-
 
 
 ## Features
-1. Sapling **reads your texts to find the 5 most relevant sentences across multiple PDF articles within minutes** based on your question about its topic. 😎 Confidence scores of each result are displayed! 
-2. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
-3. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
-4. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version.
-5. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020)
+1. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020) that does not rely on memorizing words or questions to find answers. (The method is too technical to explain here, look at the article "Attention is all you need" by Google if you are interested )
+2. Sapling **reads your texts to find the 5 most relevant sentences across multiple PDF articles within minutes** based on your question about its topic. 😎 Confidence scores of each result are displayed! 
+3. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
+4. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
+5. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version. 
 6. Works on Windows 10 🍑 and MacOS 13 🍎 or newer.
 
 
@@ -26,7 +29,7 @@ The creation of Sapling hopes :-
 1. **Setting up**	
 	- Download 'Sapling':
 		1. [(New) Direct download](http://80.115.230.100:8000/)
-		2. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing) 
+		2. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
 		3. [GoogleDrive - MacOS 10.15 & above (170MB)](https://drive.google.com/file/d/1lsVJfT7_krV5sIjFkDtgET4xs8OUrO56/view?usp=sharing)
 		4. [GoogleDrive - MacOS 10.13.6 - 14 (170MB)](https://drive.google.com/file/d/1IpIstAMWfKvCxoyEn4PAlGdZ4ST1Quq_/view?usp=sharing)
 
@@ -92,6 +95,10 @@ Coming Soon
 	1. Naive search for relevant docs with TF-IDF
 	2. Fit query and passages using model pre-trained on Wiki texts and fine-tuned on Squad tasks, with span classification head
 	3. Retrieve cross entropy losses to score passage fit and embedding vectors to compute argmax'es for answer spans
+3. Model specifications
+	1. Name: ALBERT base
+	2. Vocabulary amount: 30,000
+	3. Training data: English wikipedia, Squad dataset
 
 
 ### Version Releases
