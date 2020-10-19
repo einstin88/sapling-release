@@ -54,8 +54,8 @@ Download, Unzip, Run!
 		- [For MacOS](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) ➡ choose 'macOS installer'
 
 2. **Extract and run**
-	- *~~Windows~~* : Run `autorun.bat` after extracting the zip file
-	- *Mac*: 
+	- <ins>Windows</ins> : Run `autorun.bat` after extracting the zip file
+	- <ins>Mac</ins>: 
 		1. Follow instructions in the zipped file to run `autorun.command`.
 		2. When you get a prompt about security, goto 'Setting' > 'Security & Privacy' > select 'open anyway'
 
@@ -64,15 +64,15 @@ Download, Unzip, Run!
 
 	- Example: 
 	
-	~~This is the folder with the PDFs~~
+	<ins>This is the folder with the PDFs</ins>
 
 	![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
 
-	~~The full path to the folder provided like this~~
+	<ins>The full path to the folder provided like this</ins>
 
 	![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
 
-	- *MacOS*: **2 easy ways to copy the folder path**
+	- <ins>For macOS</ins>: **2 easy ways to copy the folder path**
 		1. ***Option 1:***
 			- Drag and drop into the console window
 		2. ***Option 2:***
@@ -87,9 +87,12 @@ Download, Unzip, Run!
 	- And repeat!
 
 ### Example query & results: <a name="examples"></a>
+<ins>Key in a question</ins>
 
 ![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
-	
+
+Voila!
+
 ![Results](https://github.com/einstin88/sapling-release/blob/master/img/result_disp.png)
 
 
@@ -101,7 +104,7 @@ Download, Unzip, Run!
 	- It takes a couple of seconds to load the PDF parser. Sometimes the first timer is up before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
 
 3. Why am I getting segmentation fault : 11?
-	- This should be fixed now. If you're using MacOS, it is due to the way Python and Mac handles memory. You may have feed it with a large file, increasing RAM and cache usage by the program. I will try to fix this in the next version.
+	- This should be fixed now. If you're using MacOS, it is due to the way Python and Mac handles memory. You may have fed it with a large file, increasing RAM and cache usage by the program.
 
 4. Why does it take a couple of minutes every time I enter a question?
 	- It is still in the preliminary development phase of the program. So the focus is on accuracy of the results. Speed will be improved in the future for sure! Please let us know if you find the program useful or what needs to be improved, so it can be added as a future feature!
@@ -128,7 +131,7 @@ Coming Soon
 ### Version Releases
 - v0.1 [13-Oct-2020]: debut for alpha testing
 	- *features available*
-		1. Extract clean texts from PDFs
+		1. Extract & clean texts from PDFs
 		2. Return 5 top matching answers to your query
 
 #### *Notes*
