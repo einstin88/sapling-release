@@ -1,10 +1,10 @@
 ![Sapling Logo](https://github.com/einstin88/sapling-release/blob/master/img/original.jpeg)
 
-# Sapling 🌱
+# Sapling 🌱 <a name="top"></a>
 - current release: `v0.1` 
 - Aims to help students pin-point answers *([1](#note1))* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 
-## Contents <a name="top"></a>
+## Contents 
 1. [What it does?](#first)
 2. [Why Sapling?](#second)
 3. [Features](#third)
@@ -12,7 +12,7 @@
 5. [FAQ](#fifth)
 6. [Technical description](#sixth)
 
-## What it does? (will be refined later) <a name="first"></a>
+## What it does? <a name="first"></a>
 - **What it does in short**: It reads in the passages of the documents in your folder and determine their relevancy to your questions - imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
 - You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you try rephrasing the question)
 - It **does NOT assess** your texts qualitatively, i.e., strengths & weaknesses or arguments, robustness of results or the underlying research methodologies unless they are explicitly mentioned! These tasks will remain the responsibility of the students fortunately/unfortunately 😪
