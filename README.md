@@ -124,6 +124,8 @@ Coming Soon
 #### *Notes*
 1. Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks. <a name="note1"></a>
 2. Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs. <a name="note2"></a>
+[back](#third)
+
 [return to top](#top)
 
 #### Ideas for the future:
