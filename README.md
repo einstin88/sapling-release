@@ -3,6 +3,16 @@
 # Sapling 🌱
 - current release: `v0.1` 
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
+
+## Contents
+1. [What it does?](##What-it-does?-\(will-be-refined-later))
+2. [Why Sapling?](##Why-Sapling?)
+3. [Feature](##Features)
+4. [Getting started](##Getting-Started:)
+5. [FAQ](##FAQ)
+6. [Technical description](###Technical-description)
+
+## What it does? (will be refined later)
 - **What it does in short**: It reads in the passages of the documents in your folder and determine their relevancy to your questions - imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
 - You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you try rephrasing the question)
 - It **does NOT assess** your texts qualitatively, i.e., strengths & weaknesses or arguments, robustness of results or the underlying research methodologies unless they are explicitly mentioned! These tasks will remain the responsibility of the students fortunately/unfortunately 😪
@@ -81,10 +91,10 @@ The creation of Sapling hopes :-
 	- It takes a couple of seconds to load the PDF parser. Sometimes the first timer is up before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
 
 3. Why am I getting segmentation fault : 11?
-	- If you're using MacOS, it is due to the way Python and Mac handles memory. You may have feed it with a large file, increasing RAM and cache usage by the program. I will try to fix this in the next version.
+	- This should be fixed now. If you're using MacOS, it is due to the way Python and Mac handles memory. You may have feed it with a large file, increasing RAM and cache usage by the program. I will try to fix this in the next version.
 
 4. Why does it take a couple of minutes every time I enter a question?
-	- We are still in the preliminary development phase of the program. So the focus is on accuracy of the results. Speed will be improved in the future for sure! Please let us know if you find the program useful or what needs to be improved, so it can be added as a future feature!
+	- It is still in the preliminary development phase of the program. So the focus is on accuracy of the results. Speed will be improved in the future for sure! Please let us know if you find the program useful or what needs to be improved, so it can be added as a future feature!
 
 
 ### Feedback
@@ -127,4 +137,4 @@ Coming Soon
 	- [ ] combine multiple directories as a common knowledge base
 
 - *Bug fixes*
-	- [ ] Segmentation fault 11 - fix memory handling with joblib
+	- [x] Segmentation fault 11 - fix memory handling with joblib
