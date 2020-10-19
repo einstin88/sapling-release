@@ -4,6 +4,7 @@
 - current release: `v0.1` 
 - Aims to help students pin-point answers *([1](#note1))* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 
+
 ## Contents 
 1. [What it does?](#first)
 2. [Why Sapling?](#second)
@@ -17,18 +18,19 @@
 ## What it does? <a name="first"></a>
 **In short**: 
 1. It reads in the passages of the documents in your folder and determine their relevancy to your questions. The top 5 passages will then be shown!
-2. Imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
-3. You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! 
+2. Imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then tell Sapling to open the correct document for you and dive right in~~
+3. You may also use Sapling to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! 
 	- For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you tried rephrasing the question)
-- It **does NOT assess** your texts qualitatively, i.e., strengths & weaknesses or arguments, robustness of results or the underlying research methodologies unless they are explicitly mentioned! These tasks will remain the responsibility of the students fortunately/unfortunately 😪
+- It **does NOT assess** your texts qualitatively, i.e., strengths & weaknesses or arguments, fallacies, robustness of results or the underlying research methodologies unless they are explicitly mentioned! These tasks will remain the responsibility of the reader fortunately/unfortunately 😪
 
 
 ## Why Sapling? <a name="second"></a>
 The creation of Sapling hopes :-
 1. to reduce the time ⏲ needed by students to learn about any text-based (usually new) topic 
-2. to provides answers on the fly, such as during lectures 🙋‍♀️🙋‍♂️ and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
-3. to help reduce anxiety (due to information overload) while preparing for exams 👨‍💻👩‍💻 or essay writing
-4. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
+2. to provides answers on the fly, such as during lectures 🙋‍♀️🙋‍♂️ and in workgroup sessions
+3. to help when you want to refresh on old knowledge such as topics that was learnt months or years ago
+4. to help reduce anxiety (due to information overload) while preparing for exams 👨‍💻👩‍💻 or essay writing
+5. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
 
 (Inspired by advancements in AI 🤖 on Natural Language Processing (NLP) such as IBM's Watson, FB's DrQA, and Google Research's BERT & ALBERT)
 
@@ -37,21 +39,22 @@ The creation of Sapling hopes :-
 1. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020) that does not rely on memorizing words or questions to find answers. (The method is too technical to explain here, look at the article "Attention is all you need" by Google if you are interested )
 2. Sapling **reads your texts to find the 5 most relevant sentences across multiple PDF articles within minutes** based on your question about its topic. 😎 Confidence scores of each result are displayed! 
 3. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
-4. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *([2](#note2))*. You could for example feed it with all the articles and book chapters required for a course!
+4. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. Sapling works best when more texts files are being fed *([2](#note2))*. You could for example feed it with all the articles and book chapters required for a course!
 5. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version. 
 6. Works on Windows 10 🍊 and MacOS 13 🍎 or newer.
 
 
 ## Getting Started: <a name="forth"></a>
-Download, Unzip, Run!
+<ins>Download, Unzip, Run!</ins>
 1. **Setting up**	
-	- Download 'Sapling':
-		1. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
-		2. [GoogleDrive - MacOS 10.13.6 or newer (200MB)](https://drive.google.com/drive/folders/1-D2qTUL0S43HrnTgIvMqcLLpi6w0mNN9?usp=sharing)
+	1. Download 'Sapling':
+		- [For Windows](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
+		- [For macOS 10.13.6 or newer](https://drive.google.com/drive/folders/1-D2qTUL0S43HrnTgIvMqcLLpi6w0mNN9?usp=sharing)
 
-	- Download and install latest **Java** runtime
+	2. Download and install **Java** runtime
 		- [For Windows](https://java.com/en/download/) 
-		- [For MacOS](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) ➡ choose 'macOS installer'
+		- [For macOS](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) ➡ choose 'macOS installer'
+		- Java is required to run the parser that converts PDFs to a text format that is understandable by the computer. The same parser can also convert images or other document formats to plain texts which will come in future releases.
 
 2. **Extract and run**
 	- <ins>Windows</ins> : Run `autorun.bat` after extracting the zip file
@@ -92,7 +95,7 @@ Download, Unzip, Run!
 
 ![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
 
-Voila!
+***Voila!***
 
 ![Results](https://github.com/einstin88/sapling-release/blob/master/img/result_disp.png)
 
@@ -102,7 +105,7 @@ Voila!
 	- It means that the PDF is a scanned image, or the internal character mapping is corrupt. Usually occur with very old PDFs.
 
 2. Why am I getting `failed to see startup message` error?
-	- It takes a couple of seconds to load the PDF parser. Sometimes the first timer is up before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
+	- It takes a couple of seconds to load the PDF parser. Sometimes the process monitor times out before it is loaded. If it continues, then don't worry about the message. Otherwise, you may be running with MacOS 10.14 or older, which has old Java setup and will cause strange behaviour.
 
 3. Why am I getting segmentation fault : 11?
 	- This should be fixed now. If you're using MacOS, it is due to the way Python and Mac handles memory. You may have fed it with a large file, increasing RAM and cache usage by the program.
@@ -126,7 +129,7 @@ Coming Soon
 3. Current model specifications
 	1. Name: ALBERT base
 	2. Vocabulary amount: 30,000
-	3. Training data: English wikipedia, Squad dataset
+	3. Training data: English wikipedia, Squad v2
 
 
 ### Version Releases
@@ -137,7 +140,7 @@ Coming Soon
 
 
 #### *Notes*
-1. *Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks.* <a name="note1"></a>
+1. *Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases when it is used more often.* <a name="note1"></a>
 2. *Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs.* <a name="note2"></a> 
 [*(back)*](#third)
 
@@ -146,7 +149,7 @@ Coming Soon
 
 #### Ideas for the future:
 - **Improvements**
-	- [ ] simpler explanations for users with less technical background
+	- [ ] simplify explanations for users with less technical background
 
 - *Features*
 	- [ ] ability to change the number of results returned
