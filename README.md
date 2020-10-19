@@ -14,11 +14,11 @@
 
 
 ## What it does? <a name="first"></a>
-- **What it does in short**: 
-	1. It reads in the passages of the documents in your folder and determine their relevancy to your questions 
-	2. Imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
-	3. You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! 
-		- For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you tried rephrasing the question)
+**In short**: 
+1. It reads in the passages of the documents in your folder and determine their relevancy to your questions. The top 5 passages will then be shown!
+2. Imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
+3. You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! 
+	- For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you tried rephrasing the question)
 - It **does NOT assess** your texts qualitatively, i.e., strengths & weaknesses or arguments, robustness of results or the underlying research methodologies unless they are explicitly mentioned! These tasks will remain the responsibility of the students fortunately/unfortunately 😪
 
 
@@ -147,4 +147,4 @@ Coming Soon
 	- [ ] combine multiple directories as a common knowledge base
 
 - *Bug fixes*
-	- [x] Segmentation fault 11 - fix memory handling with joblib
+	- [x] Segmentation fault 11 - fault was due to pytorch \__init\__ calls
