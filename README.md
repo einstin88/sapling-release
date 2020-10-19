@@ -12,9 +12,13 @@
 5. [FAQ](#fifth)
 6. [Technical description](#sixth)
 
+
 ## What it does? <a name="first"></a>
-- **What it does in short**: It reads in the passages of the documents in your folder and determine their relevancy to your questions - imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
-- You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you try rephrasing the question)
+- **What it does in short**: 
+	1. It reads in the passages of the documents in your folder and determine their relevancy to your questions 
+	2. Imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
+	3. You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! 
+		- For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you tried rephrasing the question)
 - It **does NOT assess** your texts qualitatively, i.e., strengths & weaknesses or arguments, robustness of results or the underlying research methodologies unless they are explicitly mentioned! These tasks will remain the responsibility of the students fortunately/unfortunately 😪
 
 
@@ -109,7 +113,7 @@ Coming Soon
 	1. Naive search for relevant docs with TF-IDF
 	2. Fit query and passages using model pre-trained on Wiki texts and fine-tuned on Squad tasks, with span classification head
 	3. Retrieve cross entropy losses to score passage fit and embedding vectors to compute argmax'es for answer spans
-3. Model specifications
+3. Current model specifications
 	1. Name: ALBERT base
 	2. Vocabulary amount: 30,000
 	3. Training data: English wikipedia, Squad dataset
@@ -129,6 +133,9 @@ Coming Soon
 [return to top](#top)
 
 #### Ideas for the future:
+- **Improvements**
+	- [ ] simpler explanations for users with less technical background
+
 - *Features*
 	- [ ] ability to change the number of results returned
 	- [ ] improve search speed with multi-thread processing
