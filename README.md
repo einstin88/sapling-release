@@ -54,7 +54,7 @@ Download, Unzip, Run!
 		- [For MacOS](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) ➡ choose 'macOS installer'
 
 2. **Extract and run**
-	- *Windows* : Run `autorun.bat` after extracting the zip file
+	- *~~Windows~~* : Run `autorun.bat` after extracting the zip file
 	- *Mac*: 
 		1. Follow instructions in the zipped file to run `autorun.command`.
 		2. When you get a prompt about security, goto 'Setting' > 'Security & Privacy' > select 'open anyway'
@@ -64,11 +64,11 @@ Download, Unzip, Run!
 
 	- Example: 
 	
-	This is the folder with the PDFs
+	~~This is the folder with the PDFs~~
 
 	![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
 
-	The full path to the folder provided like this
+	~~The full path to the folder provided like this~~
 
 	![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
 
