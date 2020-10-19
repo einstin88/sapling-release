@@ -5,20 +5,20 @@
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 
 ## Contents
-1. [What it does?](##what-it-does?-\(will-be-refined-later)
-2. [Why Sapling?](##why-sapling?)
-3. [Feature](##features)
-4. [Getting started](##getting-started\:)
-5. [FAQ](##faq)
-6. [Technical description](###technical-description)
+1. [What it does?](#first)
+2. [Why Sapling?](#second)
+3. [Feature](#third)
+4. [Getting started](#forth)
+5. [FAQ](#fifth)
+6. [Technical description](#sixth)
 
-## What it does? (will be refined later)
+## What it does? (will be refined later) <a name="first"></a>
 - **What it does in short**: It reads in the passages of the documents in your folder and determine their relevancy to your questions - imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
 - You may also use it to do a **negative query**, that is searching the documents to be certain that they don't have the information you are looking for. Useful for filtering! For example, if the retrieved answers turn out to have low confidence scores, it is likely that the information you need is not in those given documents (even after you try rephrasing the question)
 - It **does NOT assess** your texts qualitatively, i.e., strengths & weaknesses or arguments, robustness of results or the underlying research methodologies unless they are explicitly mentioned! These tasks will remain the responsibility of the students fortunately/unfortunately 😪
 
 
-## Why Sapling?
+## Why Sapling? <a name="second"></a>
 The creation of Sapling hopes :-
 1. to reduce the time ⏲ needed by students to learn about any text-based (usually new) topic 
 2. to provides answers on the fly, such as during lectures 🙋‍♀️🙋‍♂️ and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
@@ -27,7 +27,7 @@ The creation of Sapling hopes :-
 (Inspired by advancements in AI 🤖 on Natural Language Processing (NLP) such as IBM's Watson, FB's DrQA, and Google Research's BERT & ALBERT)
 
 
-## Features
+## Features <a name="third"></a>
 1. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020) that does not rely on memorizing words or questions to find answers. (The method is too technical to explain here, look at the article "Attention is all you need" by Google if you are interested )
 2. Sapling **reads your texts to find the 5 most relevant sentences across multiple PDF articles within minutes** based on your question about its topic. 😎 Confidence scores of each result are displayed! 
 3. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
@@ -36,7 +36,7 @@ The creation of Sapling hopes :-
 6. Works on Windows 10 🍑 and MacOS 13 🍎 or newer.
 
 
-## Getting Started:
+## Getting Started: <a name="forth"></a>
 1. **Setting up**	
 	- Download 'Sapling':
 		1. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
@@ -83,7 +83,7 @@ The creation of Sapling hopes :-
 ![Results](https://github.com/einstin88/sapling-release/blob/master/img/result_disp.png)
 
 
-## FAQ
+## FAQ <a name="fifth"></a>
 1. What it means by `texts are not parsable`?
 	- It means that the PDF is a scanned image, or the internal character mapping is corrupt. Usually occur with very old PDFs.
 
@@ -101,7 +101,7 @@ The creation of Sapling hopes :-
 Coming Soon
 
 
-### Technical description
+### Technical description <a name="sixth"></a>
 1. Preprocessing
 	1. Retrieves compatible files from given directory
 	2. Parse and clean texts of headers/footers/annotations/references
