@@ -8,6 +8,7 @@
 1. [What it does?](#first)
 2. [Why Sapling?](#second)
 3. [Features](#third)
+	- [Example](#examples)
 4. [Getting started](#forth)
 5. [FAQ](#fifth)
 6. [Technical description](#sixth)
@@ -28,6 +29,7 @@ The creation of Sapling hopes :-
 2. to provides answers on the fly, such as during lectures 🙋‍♀️🙋‍♂️ and in workgroup sessions, or when refreshing knowledge on topics that was learnt months or years ago
 3. to help reduce anxiety (due to information overload) while preparing for exams 👨‍💻👩‍💻 or essay writing
 4. to ultimately reduce the knowledge acquisition barrier to help every one succeed in their education journey
+
 (Inspired by advancements in AI 🤖 on Natural Language Processing (NLP) such as IBM's Watson, FB's DrQA, and Google Research's BERT & ALBERT)
 
 
@@ -37,10 +39,11 @@ The creation of Sapling hopes :-
 3. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
 4. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *([2](#note2))*. You could for example feed it with all the articles and book chapters required for a course!
 5. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version. 
-6. Works on Windows 10 🍑 and MacOS 13 🍎 or newer.
+6. Works on Windows 10 🍊 and MacOS 13 🍎 or newer.
 
 
 ## Getting Started: <a name="forth"></a>
+Download, Unzip, Run!
 1. **Setting up**	
 	- Download 'Sapling':
 		1. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
@@ -60,10 +63,12 @@ The creation of Sapling hopes :-
 	- This is the knowledge base which Sapling draw her answers from.
 
 	- Example: 
-		1. this is the folder with the PDFs
+	
+	This is the folder with the PDFs
 
 	![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
-		2. The full path to the folder provided like this
+
+	The full path to the folder provided like this
 
 	![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
 
@@ -71,7 +76,7 @@ The creation of Sapling hopes :-
 		1. ***Option 1:***
 			- Drag and drop into the console window
 		2. ***Option 2:***
-			- Right click on the folder, then **hold** the 'option' button. You should see 'Copy xxx as pathname' option
+			- Right click on the folder, then **hold** the 'option' key. You should see 'Copy xxx as pathname' option
 	
 	![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
 
@@ -80,7 +85,8 @@ The creation of Sapling hopes :-
 4. **Question away!**
 	- Ask anything you like or something you vaguely remember from reading the texts
 	- And repeat!
-	- Example query & results:
+
+### Example query & results: <a name="examples"></a>
 
 ![Example query](https://github.com/einstin88/sapling-release/blob/master/img/query.png)
 	
