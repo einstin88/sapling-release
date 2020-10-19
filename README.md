@@ -29,10 +29,8 @@ The creation of Sapling hopes :-
 ## Getting Started:
 1. **Setting up**	
 	- Download 'Sapling':
-		1. [(New) Direct download](http://80.115.230.100:8000/)
-		2. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
-		3. [GoogleDrive - MacOS 10.15 & above (170MB)](https://drive.google.com/file/d/1lsVJfT7_krV5sIjFkDtgET4xs8OUrO56/view?usp=sharing)
-		4. [GoogleDrive - MacOS 10.13.6 - 14 (170MB)](https://drive.google.com/file/d/1IpIstAMWfKvCxoyEn4PAlGdZ4ST1Quq_/view?usp=sharing)
+		1. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
+		2. [GoogleDrive - MacOS 10.13.6 or newer (200MB)](https://drive.google.com/drive/folders/1-D2qTUL0S43HrnTgIvMqcLLpi6w0mNN9?usp=sharing)
 
 	- Download and install latest Java runtime
 		- [For Windows](https://java.com/en/download/) 
@@ -42,14 +40,15 @@ The creation of Sapling hopes :-
 	- *Windows* : Run `autorun.bat` after extracting the zip file
 	- *Mac*: 
 		1. Follow instructions in the zipped file to run `autorun.command`.
-		2. When you get a prompt about security, goto 'Setting' > 'Security & Privacy' > select allow or enable
+		2. When you get a prompt about security, goto 'Setting' > 'Security & Privacy' > select 'open anyway'
 
 3. **Provide path to the folder with your PDFs**
 	- This is the knowledge base which Sapling draw her answers from.
 
 	- Example: 
 		1. this is the folder with the PDFs
-		 ![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
+
+	![directory](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_1.png)
 		2. The full path to the folder provided like this
 
 	![then path to the folder](https://github.com/einstin88/sapling-release/blob/master/img/provide_path.png)
