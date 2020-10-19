@@ -76,7 +76,7 @@ Download, Unzip, Run!
 		1. ***Option 1:***
 			- Drag and drop into the console window
 		2. ***Option 2:***
-			- Right click on the folder, then **hold** the 'option' key. You should see 'Copy xxx as pathname' option
+			- Right click on the folder, then **hold** the 'option' key. You should see `'Copy xxx as pathname'` option
 	
 	![copy path on mac](https://github.com/einstin88/sapling-release/blob/master/img/mac_folder_3.JPG)
 
@@ -85,6 +85,7 @@ Download, Unzip, Run!
 4. **Question away!**
 	- Ask anything you like or something you vaguely remember from reading the texts
 	- And repeat!
+
 
 ### Example query & results: <a name="examples"></a>
 <ins>Key in a question</ins>
@@ -134,12 +135,14 @@ Coming Soon
 		1. Extract & clean texts from PDFs
 		2. Return 5 top matching answers to your query
 
-#### *Notes*
-1. Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks. <a name="note1"></a>
-2. Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs. <a name="note2"></a>
-[back](#third)
 
-[return to top](#top)
+#### *Notes*
+1. *Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks.* <a name="note1"></a>
+2. *Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs.* <a name="note2"></a> 
+[*(back)*](#third)
+
+[<ins>return to top</ins>](#top)
+
 
 #### Ideas for the future:
 - **Improvements**
