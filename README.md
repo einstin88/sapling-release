@@ -4,7 +4,7 @@
 - current release: `v0.1` 
 - Aims to help students pin-point answers *([1](#note1))* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 
-## Contents
+## Contents <a name="top"></a>
 1. [What it does?](#first)
 2. [Why Sapling?](#second)
 3. [Features](#third)
@@ -124,6 +124,7 @@ Coming Soon
 #### *Notes*
 1. Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks. <a name="note1"></a>
 2. Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs. <a name="note2"></a>
+[return to top](#top)
 
 #### Ideas for the future:
 - *Features*
