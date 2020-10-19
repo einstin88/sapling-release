@@ -5,12 +5,12 @@
 - Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 
 ## Contents
-1. [What it does?](##What-it-does?-\(will-be-refined-later))
-2. [Why Sapling?](##Why-Sapling?)
-3. [Feature](##Features)
-4. [Getting started](##Getting-Started:)
-5. [FAQ](##FAQ)
-6. [Technical description](###Technical-description)
+1. [What it does?](##what-it-does?-\(will-be-refined-later)
+2. [Why Sapling?](##why-sapling?)
+3. [Feature](##features)
+4. [Getting started](##getting-started\:)
+5. [FAQ](##faq)
+6. [Technical description](###technical-description)
 
 ## What it does? (will be refined later)
 - **What it does in short**: It reads in the passages of the documents in your folder and determine their relevancy to your questions - imagine a custom Google-like search engine for specific ideas or concepts in your readings! You can then ask Sapling to open the correct document for you and dive right in~~
