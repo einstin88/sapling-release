@@ -2,12 +2,12 @@
 
 # Sapling 🌱
 - current release: `v0.1` 
-- Aims to help students pin-point answers *(1)* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
+- Aims to help students pin-point answers *([1](#note1))* from a large corpus of journal articles. It could also work for other formats of texts, suchs as textbook chapters or e-books.
 
 ## Contents
 1. [What it does?](#first)
 2. [Why Sapling?](#second)
-3. [Feature](#third)
+3. [Features](#third)
 4. [Getting started](#forth)
 5. [FAQ](#fifth)
 6. [Technical description](#sixth)
@@ -31,7 +31,7 @@ The creation of Sapling hopes :-
 1. Uses *nearly* state-of-the-art human language comprehension and question answering architechture (produced in end-2019 to early-2020) that does not rely on memorizing words or questions to find answers. (The method is too technical to explain here, look at the article "Attention is all you need" by Google if you are interested )
 2. Sapling **reads your texts to find the 5 most relevant sentences across multiple PDF articles within minutes** based on your question about its topic. 😎 Confidence scores of each result are displayed! 
 3. Locate the files and paragraphs where the answers are. You can open the file from the results if you want to.
-4. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *(2)*. You could for example feed it with all the articles and book chapters required for a course!
+4. Leverages modern computing capability and speed to **quickly 'read' contents among texts**. `Sapling` works best when more texts files are being fed *([2](#note2))*. You could for example feed it with all the articles and book chapters required for a course!
 5. Currently **supports most `PDFs` files**. Support for `.txt` and `docx` will be added in an upcoming version. 
 6. Works on Windows 10 🍑 and MacOS 13 🍎 or newer.
 
@@ -42,7 +42,7 @@ The creation of Sapling hopes :-
 		1. [GoogleDrive - Windows (170MB)](https://drive.google.com/file/d/1jNh1BU15eKFKZtZvSNWfRTLj5t7Qx7lz/view?usp=sharing)
 		2. [GoogleDrive - MacOS 10.13.6 or newer (200MB)](https://drive.google.com/drive/folders/1-D2qTUL0S43HrnTgIvMqcLLpi6w0mNN9?usp=sharing)
 
-	- Download and install latest Java runtime
+	- Download and install latest **Java** runtime
 		- [For Windows](https://java.com/en/download/) 
 		- [For MacOS](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) ➡ choose 'macOS installer'
 
@@ -97,7 +97,7 @@ The creation of Sapling hopes :-
 	- It is still in the preliminary development phase of the program. So the focus is on accuracy of the results. Speed will be improved in the future for sure! Please let us know if you find the program useful or what needs to be improved, so it can be added as a future feature!
 
 
-### Feedback
+### Feedback & issues reporting
 Coming Soon
 
 
@@ -122,8 +122,8 @@ Coming Soon
 		2. Return 5 top matching answers to your query
 
 #### *Notes*
-1. Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks.
-2. Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs.
+1. Sapling's internal model was trained to understand public domain language and has not been trained on domain specific language, such as Political Science or Arts. That may reduce accuracy of answers slightly, but this limitation will be improved in future releases based on user feedbacks. <a name="note1"></a>
+2. Sapling has not yet been tested to its limit, but will perform slower when given hundreds of files. Performance is also machine dependant: processor speed, memory size and availability of Cuda-GPUs. <a name="note2"></a>
 
 #### Ideas for the future:
 - *Features*
